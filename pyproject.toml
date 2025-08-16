@@ -1,0 +1,18 @@
+[project]
+name = "pathfinding-visualiser"
+version = "0.1.0"
+description = "This project implements and benchmarks an A* algorithm on a 4-connected grid graph with unit cost edges and static obstacles. The goal is to produce a robust software artifact with reproducible performance metrics for this static pathfinding problem."
+authors = [
+    {name = "Joshua Colman", email = "projects@joshuacolman.uk"},
+]
+
+requires-python = "~=3.13.3"
+
+dependencies = [
+    "numpy~=2.3.0",
+    "matplotlib~=3.10.5",
+]
+
+[build-system]
+requires = ["setuptools~=80.9.0", "wheel~=0.45.1"]
+build-backend = "setuptools.build_meta"
